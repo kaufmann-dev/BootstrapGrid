@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+	<!-- Bootstrap Icons CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+	<title>Hello, world!</title>
+
+	<style type="text/css">
+		.container {
+			background-color: #eee;
+			overflow: auto;
+		}
+		.col div {
+			width: 100%;
+			background-color: #ddd;
+			padding: 0 6px;
+		}
+	</style>
+	</head>
+	<body>
+	<div class="container">
+		<h1>Grid <i class="bi bi-grid-3x2-gap-fill"></i> options</h1>
+		<p>See how aspects of the Bootstrap <i class="bi bi-bootstrap-fill"></i> grid <i class="bi bi-grid-3x2-gap-fill"></i> system work across multiple devices with a handy table.</p>
+
+		<div class="row">
+			<div class="col">
+				<div><p>column</p></div>
+			</div>
+			<div class="col d-none d-sm-block">
+				<div><p>column</p></div>
+			</div>
+			<div class="col d-none d-md-block">
+				<div><p>column</p></div>
+			</div>
+			<div class="col d-none d-lg-block">
+				<div><p>column</p></div>
+			</div>
+			<div class="col d-none d-xl-block">
+				<div><p>column</p></div>
+			</div>
+			<div class="col d-none d-xxl-block">
+				<div><p>column</p></div>
+			</div>
+		</div>
+
+		<p class="fw-bold d-sm-none" style="color: #c44ec4;">Extra small</p>
+		<p class="fw-bold d-md-none d-sm-block d-none" style="color: #fbbc05;">Small (sm)</p>
+		<p class="fw-bold d-lg-none d-md-block d-none" style="color: #34a853;">Medium (md)</p>
+		<p class="fw-bold d-xl-none d-lg-block d-none" style="color: #4285f4;">Large (lg)</p>
+		<p class="fw-bold d-xxl-none d-xl-block d-none" style="color: #17bdbd;">Extra large (xl)</p>
+		<p class="fw-bold d-none d-xxl-block" style="color: #ea4335;">Extra Extra large (xl)</p>
+	</div>
+
+	<!-- Bootstrap Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	</body>
+</html>
